@@ -1,0 +1,182 @@
+2017-10-11 15:00:19 - [backend/session/logind.c:392] Successfully loaded logind session
+2017-10-11 15:00:19 - [backend/backend.c:109] Found 1 GPUs
+2017-10-11 15:00:19 - [backend/drm/backend.c:101] Initalizing DRM backend for /dev/dri/card1 (i915)
+2017-10-11 15:00:19 - [backend/drm/drm.c:40] Using atomic DRM interface
+2017-10-11 15:00:19 - [backend/drm/drm.c:130] Found 3 DRM CRTCs
+2017-10-11 15:00:19 - [backend/drm/drm.c:61] Found 9 DRM planes
+2017-10-11 15:00:19 - [backend/drm/drm.c:103] (3 overlay, 3 primary, 3 cursor)
+2017-10-11 15:00:19 - [render/egl.c:131] Using EGL 1.4
+2017-10-11 15:00:19 - [render/egl.c:132] Supported EGL extensions: EGL_ANDROID_native_fence_sync EGL_EXT_buffer_age EGL_EXT_create_context_robustness EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_KHR_config_attribs EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_image_dma_buf_export EGL_WL_bind_wayland_display 
+2017-10-11 15:00:19 - [render/egl.c:133] Using OpenGL ES 3.2 Mesa 17.2.2
+2017-10-11 15:00:19 - [render/egl.c:134] Supported OpenGL ES extensions: GL_EXT_blend_minmax GL_EXT_multi_draw_arrays GL_EXT_texture_filter_anisotropic GL_EXT_texture_compression_dxt1 GL_EXT_texture_format_BGRA8888 GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_mapbuffer GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_stencil8 GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_EXT_texture_sRGB_decode GL_OES_EGL_image GL_OES_depth_texture GL_OES_packed_depth_stencil GL_EXT_texture_type_2_10_10_10_REV GL_OES_get_program_binary GL_APPLE_texture_max_level GL_EXT_discard_framebuffer GL_EXT_read_format_bgra GL_EXT_frag_depth GL_NV_fbo_color_attachments GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_array_object GL_OES_viewport_array GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_EXT_robustness GL_EXT_texture_rg GL_EXT_unpack_subimage GL_NV_draw_buffers GL_NV_read_buffer GL_NV_read_depth GL_NV_read_depth_stencil GL_NV_read_stencil GL_EXT_draw_buffers GL_EXT_map_buffer_range GL_KHR_debug GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_OES_depth_texture_cube_map GL_OES_surfaceless_context GL_EXT_color_buffer_float GL_EXT_separate_shader_objects GL_EXT_shader_framebuffer_fetch GL_EXT_shader_integer_mix GL_EXT_tessellation_point_size GL_EXT_tessellation_shader GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_ANDROID_extension_pack_es31a GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_copy_image GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_gpu_shader5 GL_EXT_polygon_offset_clamp GL_EXT_primitive_bounding_box GL_EXT_shader_io_blocks GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_texture_cube_map_array GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_robust_buffer_access_behavior GL_NV_image_formats GL_OES_copy_image GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_gpu_shader5 GL_OES_primitive_bounding_box GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_io_blocks GL_OES_shader_multisample_interpolation GL_OES_tessellation_point_size GL_OES_tessellation_shader GL_OES_texture_border_clamp GL_OES_texture_buffer GL_OES_texture_cube_map_array GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_EXT_blend_func_extended GL_EXT_buffer_storage GL_EXT_geometry_point_size GL_EXT_geometry_shader GL_EXT_shader_samples_identical GL_KHR_no_error GL_KHR_texture_compression_astc_sliced_3d GL_OES_geometry_point_size GL_OES_geometry_shader GL_OES_shader_image_atomic GL_EXT_clip_cull_distance GL_MESA_shader_integer_functions 
+2017-10-11 15:00:19 - [render/gles2/renderer.c:97] Compiled default shaders
+2017-10-11 15:00:19 - [examples/shared.c:509] Running compositor on wayland display 'wayland-0'
+2017-10-11 15:00:19 - [backend/libinput/backend.c:47] Initializing libinput
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added Power Button [0:1]
+2017-10-11 15:00:19 - [types/wlr_keyboard.c:96] Keymap set
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added Video Bus [0:6]
+2017-10-11 15:00:19 - [types/wlr_keyboard.c:96] Keymap set
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added Video Bus [0:6]
+2017-10-11 15:00:19 - [types/wlr_keyboard.c:96] Keymap set
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added Lid Switch [0:5]
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added Sleep Button [0:3]
+2017-10-11 15:00:19 - [types/wlr_keyboard.c:96] Keymap set
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added Integrated Camera: Integrated C [1266:46401]
+2017-10-11 15:00:19 - [types/wlr_keyboard.c:96] Keymap set
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added HDA Intel PCH Dock Mic [0:0]
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added HDA Intel PCH Mic [0:0]
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added HDA Intel PCH Dock Headphone [0:0]
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added HDA Intel PCH Headphone [0:0]
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added HDA Intel PCH HDMI/DP,pcm=3 [0:0]
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added HDA Intel PCH HDMI/DP,pcm=7 [0:0]
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added HDA Intel PCH HDMI/DP,pcm=8 [0:0]
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added HDA Intel PCH HDMI/DP,pcm=9 [0:0]
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added HDA Intel PCH HDMI/DP,pcm=10 [0:0]
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added AT Translated Set 2 keyboard [1:1]
+2017-10-11 15:00:19 - [types/wlr_keyboard.c:96] Keymap set
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added SynPS/2 Synaptics TouchPad [2:7]
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added TPPS/2 IBM TrackPoint [2:10]
+2017-10-11 15:00:19 - [backend/libinput/events.c:74] Added ThinkPad Extra Buttons [6058:20564]
+2017-10-11 15:00:19 - [types/wlr_keyboard.c:96] Keymap set
+2017-10-11 15:00:19 - [backend/libinput/backend.c:92] libinput sucessfully initialized
+2017-10-11 15:00:19 - [backend/drm/drm.c:681] Scanning DRM connectors
+2017-10-11 15:00:19 - [backend/drm/drm.c:754] Found display 'eDP-1'
+2017-10-11 15:00:19 - [backend/drm/drm.c:763] 'eDP-1' connected
+2017-10-11 15:00:19 - [backend/drm/drm.c:764] Detected modes:
+2017-10-11 15:00:19 - [backend/drm/drm.c:779]   1920@1080@59996
+2017-10-11 15:00:19 - [backend/drm/drm.c:790] Sending modesetting signal for 'eDP-1'
+2017-10-11 15:00:19 - [examples/shared.c:427] Output 'eDP-1' added
+2017-10-11 15:00:19 - [examples/shared.c:429] Unknown  309mm x 174mm
+2017-10-11 15:00:19 - [backend/drm/drm.c:412] Modesetting 'eDP-1' with '1920x1080@59996 mHz'
+2017-10-11 15:00:19 - [backend/drm/drm.c:431] eDP-1: crtc=0 ovr=0 pri=0 cur=0
+2017-10-11 15:00:19 - [backend/drm/drm.c:754] Found display 'DP-1'
+2017-10-11 15:00:19 - [backend/drm/drm.c:754] Found display 'HDMI-A-1'
+2017-10-11 15:00:19 - [backend/drm/drm.c:754] Found display 'DP-2'
+2017-10-11 15:00:19 - [backend/drm/drm.c:754] Found display 'HDMI-A-2'
+2017-10-11 15:00:19 - [backend/drm/drm.c:754] Found display 'DP-3'
+2017-10-11 15:00:19 - [backend/drm/drm.c:754] Found display 'HDMI-A-3'
+2017-10-11 15:00:26 - [backend/session/session.c:40] udev event for card1-DP-4 (add)
+2017-10-11 15:00:26 - [backend/session/session.c:40] udev event for card1 (change)
+2017-10-11 15:00:26 - [backend/drm/backend.c:88] /dev/dri/card1 invalidated
+2017-10-11 15:00:26 - [backend/drm/drm.c:681] Scanning DRM connectors
+2017-10-11 15:00:26 - [backend/drm/drm.c:754] Found display 'DP-4'
+2017-10-11 15:00:27 - [backend/drm/drm.c:754] Found display 'DP-5'
+2017-10-11 15:00:27 - [backend/drm/drm.c:763] 'DP-5' connected
+2017-10-11 15:00:27 - [backend/drm/drm.c:764] Detected modes:
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1920@1080@60000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1920@1080@59940
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1920@1080@50000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1680@1050@59883
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1400@1050@59948
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1600@900@60000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1280@1024@75025
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1280@1024@60020
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1440@900@59901
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1280@960@60000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1280@800@59910
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1152@864@75000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1280@720@60000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1280@720@59940
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1280@720@50000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1024@768@75029
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1024@768@70069
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1024@768@60004
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   832@624@74551
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   800@600@75000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   800@600@72188
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   800@600@60317
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   800@600@56250
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   720@576@50000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   720@480@60000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   720@480@59940
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   640@480@75000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   640@480@72809
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   640@480@66667
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   640@480@60000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   640@480@59940
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   720@400@70082
+2017-10-11 15:00:27 - [backend/drm/drm.c:790] Sending modesetting signal for 'DP-5'
+2017-10-11 15:00:27 - [examples/shared.c:427] Output 'DP-5' added
+2017-10-11 15:00:27 - [examples/shared.c:429] NEC Corporation E231W 510mm x 287mm
+2017-10-11 15:00:27 - [backend/drm/drm.c:412] Modesetting 'DP-5' with '1920x1080@60000 mHz'
+2017-10-11 15:00:27 - [backend/drm/drm.c:431] DP-5: crtc=1 ovr=1 pri=1 cur=1
+2017-10-11 15:00:27 - [backend/drm/drm.c:754] Found display 'DP-6'
+2017-10-11 15:00:27 - [backend/drm/drm.c:763] 'DP-6' connected
+2017-10-11 15:00:27 - [backend/drm/drm.c:764] Detected modes:
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1680@1050@59883
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1280@1024@75025
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1280@1024@60020
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1280@960@60000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1152@864@75000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1024@768@75029
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1024@768@70069
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   1024@768@60004
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   832@624@74551
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   800@600@75000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   800@600@72188
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   800@600@60317
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   800@600@56250
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   640@480@75000
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   640@480@72809
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   640@480@66667
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   640@480@59940
+2017-10-11 15:00:27 - [backend/drm/drm.c:779]   720@400@70082
+2017-10-11 15:00:27 - [backend/drm/drm.c:790] Sending modesetting signal for 'DP-6'
+2017-10-11 15:00:27 - [examples/shared.c:427] Output 'DP-6' added
+2017-10-11 15:00:27 - [examples/shared.c:429] Samsung Electric Company SyncMaster 459mm x 296mm
+2017-10-11 15:00:27 - [backend/drm/drm.c:412] Modesetting 'DP-6' with '1680x1050@59883 mHz'
+2017-10-11 15:00:27 - [backend/drm/drm.c:431] DP-6: crtc=2 ovr=2 pri=2 cur=2
+2017-10-11 15:00:27 - [backend/session/session.c:40] udev event for card1-DP-5 (add)
+2017-10-11 15:00:27 - [backend/drm/atomic.c:57] eDP-1: Atomic commit failed (pageflip): Device or resource busy
+2017-10-11 15:00:27 - [backend/drm/atomic.c:57] DP-5: Atomic commit failed (pageflip): Device or resource busy
+2017-10-11 15:00:27 - [backend/session/session.c:40] udev event for card1 (change)
+2017-10-11 15:00:27 - [backend/drm/backend.c:88] /dev/dri/card1 invalidated
+2017-10-11 15:00:27 - [backend/drm/drm.c:681] Scanning DRM connectors
+2017-10-11 15:00:27 - [backend/drm/atomic.c:57] eDP-1: Atomic commit failed (pageflip): Device or resource busy
+2017-10-11 15:00:27 - [backend/session/session.c:40] udev event for card1-DP-6 (add)
+2017-10-11 15:00:27 - [backend/session/session.c:40] udev event for card1 (change)
+2017-10-11 15:00:27 - [backend/drm/backend.c:88] /dev/dri/card1 invalidated
+2017-10-11 15:00:27 - [backend/drm/drm.c:681] Scanning DRM connectors
+2017-10-11 15:00:27 - [backend/session/session.c:40] udev event for card1 (change)
+2017-10-11 15:00:27 - [backend/drm/backend.c:88] /dev/dri/card1 invalidated
+2017-10-11 15:00:27 - [backend/drm/drm.c:681] Scanning DRM connectors
+2017-10-11 15:00:27 - [backend/session/session.c:40] udev event for card1 (change)
+2017-10-11 15:00:27 - [backend/drm/backend.c:88] /dev/dri/card1 invalidated
+2017-10-11 15:00:27 - [backend/drm/drm.c:681] Scanning DRM connectors
+2017-10-11 15:00:27 - [backend/session/session.c:40] udev event for card1 (change)
+2017-10-11 15:00:27 - [backend/drm/backend.c:88] /dev/dri/card1 invalidated
+2017-10-11 15:00:27 - [backend/drm/drm.c:681] Scanning DRM connectors
+2017-10-11 15:00:29 - [backend/libinput/events.c:74] Added HID 06f3:0309 [1779:777]
+2017-10-11 15:00:29 - [types/wlr_keyboard.c:96] Keymap set
+2017-10-11 15:00:29 - [backend/libinput/events.c:74] Added HID 06f3:0309 [1779:777]
+2017-10-11 15:00:29 - [types/wlr_keyboard.c:96] Keymap set
+2017-10-11 15:00:29 - [backend/libinput/events.c:74] Added ThinkPad USB Laser Mouse [6127:24644]
+2017-10-11 15:00:37 - [backend/session/session.c:40] udev event for card1 (change)
+2017-10-11 15:00:37 - [backend/drm/backend.c:88] /dev/dri/card1 invalidated
+2017-10-11 15:00:37 - [backend/drm/drm.c:681] Scanning DRM connectors
+2017-10-11 15:01:01 - [backend/drm/atomic.c:57] DP-5: Atomic commit failed (pageflip): Invalid argument
+2017-10-11 15:01:01 - [backend/drm/atomic.c:57] DP-6: Atomic commit failed (pageflip): Invalid argument
+2017-10-11 15:01:01 - [backend/session/logind.c:100] Failed to release device '58'
+2017-10-11 15:01:01 - [backend/libinput/events.c:168] Removing HID 06f3:0309 [1779:777]
+2017-10-11 15:01:01 - [backend/session/logind.c:100] Failed to release device '56'
+2017-10-11 15:01:01 - [backend/session/logind.c:100] Failed to release device '60'
+2017-10-11 15:01:01 - [backend/drm/backend.c:80] DRM fd paused
+2017-10-11 15:01:01 - [backend/session/session.c:40] udev event for card1-DP-4 (remove)
+2017-10-11 15:01:01 - [backend/session/session.c:40] udev event for card1-DP-5 (remove)
+2017-10-11 15:01:01 - [backend/session/session.c:40] udev event for card1-DP-6 (remove)
+2017-10-11 15:01:01 - [backend/session/session.c:40] udev event for card1 (change)
+2017-10-11 15:01:01 - [backend/drm/backend.c:88] /dev/dri/card1 invalidated
+2017-10-11 15:01:01 - [backend/drm/drm.c:681] Scanning DRM connectors
+2017-10-11 15:01:01 - [backend/drm/drm.c:795] 'DP-5' disconnected
+2017-10-11 15:01:01 - [backend/drm/drm.c:920] Emmiting destruction signal for 'DP-5'
+2017-10-11 15:01:01 - [backend/drm/drm.c:795] 'DP-6' disconnected
+2017-10-11 15:01:02 - [backend/drm/drm.c:920] Emmiting destruction signal for 'DP-6'
+2017-10-11 15:01:02 - [backend/drm/drm.c:811] 'DP-4' disappeared
+2017-10-11 15:01:02 - [backend/session/session.c:40] udev event for card1 (change)
+2017-10-11 15:01:02 - [backend/drm/backend.c:88] /dev/dri/card1 invalidated
+2017-10-11 15:01:02 - [backend/drm/drm.c:681] Scanning DRM connectors
+2017-10-11 15:01:02 - [backend/drm/drm.c:811] 'DP-6' disappeared
+2017-10-11 15:01:02 - [backend/drm/drm.c:811] 'DP-5' disappeared
+2017-10-11 15:01:02 - [backend/session/session.c:40] udev event for card1 (change)
+2017-10-11 15:01:02 - [backend/drm/backend.c:88] /dev/dri/card1 invalidated
+2017-10-11 15:01:02 - [backend/drm/drm.c:681] Scanning DRM connectors
